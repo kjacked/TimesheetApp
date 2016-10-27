@@ -1,0 +1,12 @@
+
+
+<form id="timesheet" name="timesheet">
+  <h2 title= "Weekly Time Sheet" >Weekly Time Sheet </h2>
+  <label for="Date">Date: </label> <input id="date" name="date"><br/>
+  <label for="clockIn">Clock In:</label>   <input id="clockIn" name="clockIn"><br/>
+  <label for="clockOut">Clock Out:</label> <input id="clockOut" name="clockOut"><br/>
+  <label for="hoursWorked">Hours Worked:</label> <input id="hoursWorked" name="hoursWorked"> <br/>
+  <button type="addEntry" ng-click="addEntry(timecard)" class="btn btn-primary">Add Entry</button>
+  <button type="submit" ng-click="submit(timecard)" class="btn btn-primary">Submit</button>
+  <button type="viewHours" ng-click="viewHours(timecard)" class="btn btn-primary">View Hours</button>
+</form>
